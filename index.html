@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Unity kongregate by kinifi</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/kinifi/Unity_Kongregate">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/kinifi/Unity_Kongregate/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/kinifi/Unity_Kongregate/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Unity kongregate</h1>
+          <p>How to use Kongregate in Unity3D using javascript. </p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/kinifi">kinifi</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="unity_kongregate" class="anchor" href="#unity_kongregate"><span class="octicon octicon-link"></span></a>Unity_Kongregate</h1>
+
+<p>This is very easy to do. The biggest problem is you MUST use javascript due to Kongregate's API only allowing this. </p>
+
+<p>How to Use: </p>
+
+<ul>
+<li>Attach the Kongregate.js script to whatever object you want. I chose an empty and named it "KongregateAPI"</li>
+</ul><p>Q &amp; A: </p>
+
+<ol>
+<li><p>Q: I want to change how things are displayed on screen how do I do that? 
+A: The GUILayout.Label variables must stay in order to be displayed correctly but you can change the GUILayout.BeginArea and its size to make it look however you want. </p></li>
+<li><p>Q: Can I do this in C#? 
+A: No, Kongregate does not allow you to do this because they wrote their API mostly for native games and/or flash games. </p></li>
+<li><p>Q: Can I submit my own Highscores? 
+A: Yes, just use the variables in the SubmitStatistic function. </p></li>
+<li><p>Q: Why are my highscores not posting in my game? 
+A: Kongregate needs a minimum amount of data before it can be displayed. The best is to just play it a few times and get enough data and it will eventually show up. </p></li>
+</ol>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
